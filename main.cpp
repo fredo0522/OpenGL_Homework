@@ -59,9 +59,9 @@ public:
 
         // Additional Cone
         glPushMatrix();
-			glRotatef(timer010 * 360, 1, 0, 0);
+            glRotatef(timer010 * 360, 1, 0, 0);
             glScalef(0.5, 0.5, 0.5);
-			glutSolidCone(2, 2, 8, 3);
+            glutSolidCone(2, 2, 8, 3);
         glPopMatrix();
 
         // Cube 3 unidades alejadas del centro
@@ -83,9 +83,9 @@ public:
             glTranslatef(0, 3, 0);
             glScalef(0.8, 0.8, 1);
             glBegin(GL_TRIANGLES);
-				glVertex3f(1.5, 0, 0);    // Vertice derecho
-				glVertex3f(-1.5, 0, 0);   // Vertice izquierdo
-				glVertex3f(0, 2.5, 0);    // Vertice altura
+                glVertex3f(1.5, 0, 0);    // Vertice derecho
+                glVertex3f(-1.5, 0, 0);   // Vertice izquierdo
+                glVertex3f(0, 2.5, 0);    // Vertice altura
             glEnd();
         glPopMatrix();
 
